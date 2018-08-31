@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+
+        .patafix-me {
+            width: 700px;
+            height: 350px;
+            margin: 35px auto;
+            padding: 13px 15px;
+            border: 1px solid #cdcdcd;
+            border-radius: 8px;
+            background-color: #969696;
+            box-sizing: border-box;
+        }
+    </style>
+
+    <link rel="stylesheet" href="patafix.css" type="text/css" media="all">
+</head>
+<body>
+
+<div class="patafix-me">
+    <p>You can patafix me</p>
+</div>
+
+<div class="patafix-menu">
+    <div class="select-menu hidden">
+
+    </div>
+    <button>v</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+</script>
+<script src="patafix.js"></script>
+<script type="application/javascript">
+    $('.patafix-me').patafix();
+</script>
+</body>
+</html>
